@@ -15,9 +15,6 @@ public class Main {
 	
 	static SimpleDateFormat dt = new SimpleDateFormat("yyyy-MM-dd"); 
 	
-	static String sfromData = ""; 	//from data
-	static String stoData = ""; 	//to data
-	
 	static Calendar start = Calendar.getInstance();
 	static Calendar end = Calendar.getInstance();
 	
@@ -26,8 +23,8 @@ public class Main {
 	
 	public static void main(String args[]) throws ParseException{
 		
-		Date fromData = dt.parse(sfromData); 
-		Date toData = dt.parse(stoData); 
+		Date fromData = dt.parse(args[0]); 
+		Date toData = dt.parse(args[1]); 
 		
 		start.setTime(fromData);
 		end.setTime(toData);
