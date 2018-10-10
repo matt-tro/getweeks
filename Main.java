@@ -21,8 +21,8 @@ public class Main {
 	static Calendar start = Calendar.getInstance();
 	static Calendar end = Calendar.getInstance();
 	
-	static Date tmp1;
-	static Date tmp2;
+	static Date startTime;
+	static Date endTime;
 	
 	public static void main(String args[]) throws ParseException{
 		
@@ -32,17 +32,17 @@ public class Main {
 		start.setTime(fromData);
 		end.setTime(toData);
 		
-		tmp1 = start.getTime();
-		tmp2 = end.getTime();
+		startTime = start.getTime();
+		endTime = end.getTime();
 		
-		Calendar tmp3 = Calendar.getInstance();
+		Calendar calendarInstance = Calendar.getInstance();
 		
 		for (Date date = start.getTime(); 
-				!start.after(end) || !start.after(tmp3); 
+				!start.after(end) || !start.after(calendarInstance); 
 			 start.add(Calendar.DATE, 7), date = start.getTime()) {
-				tmp3 = (Calendar) end.clone();
-				tmp3.add(Calendar.DATE, 7);
-				getWeekDays(date,start,tmp3);
+				calendarInstance = (Calendar) end.clone();
+				calendarInstance.add(Calendar.DATE, 7);
+				getWeekDays(date,start,calendarInstance);
 		}
 		
 	}
@@ -58,12 +58,12 @@ public class Main {
 		DateTime onTheFirstDayOfTheFirstWeek = from.withWeekyear(from.getYear()).withWeekOfWeekyear(week).withDayOfWeek(1);
 		DateTime onTheLastDayOfTheFirstWeek = from.withWeekyear(from.getYear()).withWeekOfWeekyear(week).withDayOfWeek(7);
 		
-		if (onTheFirstDayOfTheFirstWeek.toDate().before(tmp1)){
+		if (onTheFirstDayOfTheFirstWeek.toDate().before(startTime)){
 			Date dateFrom = start.getTime();
 			onTheFirstDayOfTheFirstWeek = new DateTime(dateFrom);
 		}
 		
-		if (onTheLastDayOfTheFirstWeek.toDate().after(tmp2)){
+		if (onTheLastDayOfTheFirstWeek.toDate().after(endTime)){
 			Date dateTo = end.getTime();
 			onTheLastDayOfTheFirstWeek = new DateTime(dateTo);
 		}
