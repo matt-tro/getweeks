@@ -8,7 +8,7 @@ This project requires Joda-Time library (>= 2.9.9) and JRE (Java Runtime Environ
 
 # Example of usage and output
 Run the java executable with two parameters: the start and the end date, both in YYYY-MM-DD format.  
-    java getweeks 2017-01-01 2017-02-02  
+    java -jar getweeks 2017-01-01 2017-02-02  
 Output:  
 2017-01-02 - 2017-01-08  
 2017-01-09 - 2017-01-15  
