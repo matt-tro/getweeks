@@ -23,6 +23,10 @@ public class Main {
 	
 	public static void main(String args[]) throws ParseException{
 		
+		/*
+		Both arguments are mandatory. Earlier date as first argument, latest date as second.
+		Please use yyyy-MM-dd format
+		*/
 		Date fromData = dt.parse(args[0]); 
 		Date toData = dt.parse(args[1]); 
 		
