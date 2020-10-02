@@ -19,3 +19,6 @@ Output:
 2017-01-23 - 2017-01-29  
 2017-01-30 - 2017-02-02  
 ```
+## Mantainers
+- Mattia Trombon (project manager)
+- Marco Bimbati
