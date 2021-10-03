@@ -1,5 +1,5 @@
 # getweeks
-Obtain all limit weeks from a period included between two dates in Java
+Obtain all limit weeks from a period included between two dates. This projet is implemented in Java.
 
 Using the functionalities of free Joda-Time library, this little project allows to obtain all limit weeks from a period included between two dates.
 
