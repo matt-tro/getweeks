@@ -22,3 +22,4 @@ Output:
 ## Mantainers
 - Mattia Trombon (project manager)
 - Marco Bimbati
+- Francesca Reale
