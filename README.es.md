@@ -3,7 +3,7 @@
 [![it](https://img.shields.io/badge/lang-it-green.svg)](https://github.com/matt-tro/getweeks/blob/master/README.it.md)
 [![it](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/matt-tro/getweeks/blob/master/README.es.md)
 
-Obtener todos los límites de cada semana de un período entre dos data en Java.
+Obtener todos los límites de cada semana de un período entre dos datas en Java.
 
 Utilizando las funcionalidades de la librería gratis Joda-Time, este pequeño proyecto permite obtener todos los límites de cada semana en un período incluido entre dos datas.
 
