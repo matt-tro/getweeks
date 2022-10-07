@@ -26,3 +26,4 @@ Output:
 - Mattia Trombon (project manager)
 - Marco Bimbati
 - Francesca Reale
+- Hellen Miriam Diego Lazaro
