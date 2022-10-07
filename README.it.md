@@ -1,4 +1,6 @@
 # getweeks
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/matt-tro/getweeks/blob/master/README.md)
+
 Ottiene tutti i limiti setitmanali da un periodo incluso tra due date in Java.
 
 Usando le funzionalità della libreria free Joda-Time, questo piccolo progetto consente di ottenere tutti i limiti settimanali da un periodo incluso tra due date.
@@ -23,3 +25,4 @@ Output:
 - Mattia Trombon (project manager)
 - Marco Bimbati
 - Francesca Reale
+- Hellen Miriam Diego Lazaro
