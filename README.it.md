@@ -1,6 +1,7 @@
 # getweeks
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/matt-tro/getweeks/blob/master/README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/matt-tro/getweeks/blob/master/README.es.md)
+[![no](https://img.shields.io/badge/lang-no-blue.svg)](https://github.com/matt-tro/getweeks/blob/master/README.no.md)
 
 Ottiene tutti i limiti setitmanali da un periodo incluso tra due date in Java.
 
@@ -28,3 +29,4 @@ Output:
 - Francesca Reale
 - Hellen Miriam Diego Lazaro
 - Fonta22
+- Nilis24

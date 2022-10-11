@@ -1,6 +1,7 @@
 # getweeks
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/matt-tro/getweeks/blob/master/README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](https://github.com/matt-tro/getweeks/blob/master/README.it.md)
+[![no](https://img.shields.io/badge/lang-no-blue.svg)](https://github.com/matt-tro/getweeks/blob/master/README.no.md)
 
 Obtener todos los límites de cada semana de un período entre dos datas en Java.
 
@@ -29,3 +30,4 @@ Output:
 - Francesca Reale
 - Hellen Miriam Diego Lazaro
 - Fonta22
+- Nilis24

@@ -1,7 +1,7 @@
 # getweeks
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/matt-tro/getweeks/blob/master/README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](https://github.com/matt-tro/getweeks/blob/master/README.it.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/matt-tro/getweeks/blob/master/README.es.md)
+[![no](https://img.shields.io/badge/lang-no-blue.svg)](https://github.com/matt-tro/getweeks/blob/master/README.no.md)
 
 Obtain all week limits from a period included between two dates in Java.
 
@@ -29,3 +29,4 @@ Output:
 - Francesca Reale
 - Hellen Miriam Diego Lazaro
 - Fonta22
+- Nilis24
